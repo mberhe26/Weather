@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: rgb(44, 110, 141);
+ 
+}
+h2{
+  color:rgb(31, 50, 59);
+}
+.cities-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cities {
+  flex:  100px; 
+  width: auto;
+  height: auto;
+  margin: 1cm;
+  background-color: #3d75be;
+  padding: 0.5%;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #97beeb;
+  transition: box-shadow 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+.data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.data-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.header.data-row.p {
+  font-weight: bold;
+  color: black;
+
+}
+
