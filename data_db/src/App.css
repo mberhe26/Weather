@@ -6,11 +6,11 @@
 }
 
 body{
-  background-color: rgb(44, 110, 141);
+  background-color: rgb(13, 33, 43);
  
 }
 h2{
-  color:rgb(31, 50, 59);
+  color:rgb(160, 195, 211);
 }
 .cities-container {
   display: flex;
@@ -39,12 +39,12 @@ h2{
 
 .data-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
 }
 .header.data-row.p {
   font-weight: bold;
-  color: black;
+  color: rgb(163, 173, 194);
 
 }
 
